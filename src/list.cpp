@@ -79,17 +79,11 @@ void List::delete_item(){
         cin >> choiceNum; 
         list.erase(list.begin() + choiceNum);
 
-    }else{
+    }
+    else{
         cout << "No items in the list or to delete.\n";
     }
 
 
-/*
-    string item;
-    cin >> item;
-    list.push_back(item);
-    cout << "Successfully added an item to the list \n\n\n\n\n\n";
-    cin.clear();
-    print_menu();
-*/
+
 }
